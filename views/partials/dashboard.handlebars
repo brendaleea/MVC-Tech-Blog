@@ -1,0 +1,46 @@
+<a name="" id="show-post-form" class="btn btn-secondary p-3 mt-5" role="button">+ New Post</a>
+
+<section id="current-posts" class="w-100">
+    {{log 'hello'}}
+    {{#each data.posts as |post|}}
+    {{> dashboard-post}}
+    {{/each}}
+</section>
+
+
+<div class="card text-white bg-dark w-100 m-5" id="post-form" style="display: none;">
+    <div class="card-body">
+        <h4 class="card-title">Create New Post</h4>
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" name="title" id="post-title">
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">Content</label>
+            <textarea class="form-control" name="content" id="post-content" rows="3"></textarea>
+        </div>
+        <a name="" id="create-post" class="btn btn-secondary mx-2" role="button">Post</a>
+        <a name="" id="cancel-post" class="btn btn-secondary mx-2" role="button">Cancel</a>
+    </div>
+</div>
+
+
+<div class="card text-white bg-dark w-100 m-5" id="update-post-form" style="display: none">
+    <div id="post-id" style="display: none"></div>
+    <div class="card-body">
+        <h4 class="card-title">Edit Post</h4>
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" name="title" id="update-post-title">
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">Content</label>
+            <textarea class="form-control" name="content" id="update-post-content" rows="3"></textarea>
+        </div>
+        <a name="" id="update-post" class="btn btn-secondary mx-2" role="button">Update</a>
+        <a name="" id="cancel-post-update" class="btn btn-secondary mx-2" role="button">Cancel</a>
+        <a name="" id="delete-post" class="btn btn-secondary mx-2" role="button">
+            <i class="fa-solid fa-trash"></i>
+        </a>
+    </div>
+</div>

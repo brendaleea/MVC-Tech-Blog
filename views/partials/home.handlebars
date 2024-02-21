@@ -1,0 +1,34 @@
+<section id="all-posts" class="w-100">
+    {{#each posts as |post|}}
+    {{>home-post}}
+    {{/each}}
+</section>
+
+<div class="card text-white bg-dark m-5 w-100" id="post-view" style="display: none;">
+    <div class="card-body pt-3 px-4">
+        <h4 class="card-title display-5" id="post-view-title">
+            TITLE
+        </h4>
+        <h5 id="post-view-info">Posted on DATE by AUTHOR</h5>
+        <p class="card-text my-4" id="post-view-content">
+            CONTENT
+        </p>
+        <div id="comments" class="mt-5" style="display: none">
+            <h4 class="card-title">
+                Comments:
+            </h4>
+        </div>
+        {{#if loggedIn}}
+        <a name="" id="add-comment" class="btn btn-info text-white" href="#" role="button">+ Add comment</a>
+        <div id="post-comment-section" style="display: none">
+            <div class="mb-3 d-flex">
+                <input type="text" class="form-control" name="" id="post-comment-content" aria-describedby="helpId"
+                    placeholder="Comment here...">
+                <a name="" id="post-comment" class="btn btn-info text-white mx-3" href="#" role="button">Post</a>
+                <a name="" id="cancel-comment" class="btn btn-info text-white" href="#" role="button">Cancel</a>
+            </div>
+        </div>
+        {{/if}}
+    </div>
+    <a name="" id="back-button" class="btn btn-info text-white mx-4 mb-3" href="#" role="button">Back</a>
+</div>
