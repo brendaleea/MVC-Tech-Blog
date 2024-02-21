@@ -12,7 +12,7 @@ This Challenge is a CMS-style blog site similar to a Wordpress site, where devel
 ![MVC-Tech-Blog](./)
 
 
-GitHub Repo Link: https://github.com/brendaleea/E-Commerce-Backend
+GitHub Repo Link: https://github.com/brendaleea/MVC-Tech-Blog/tree/main
 
 Heroku Deployment link: COMING SOON
 
@@ -20,7 +20,7 @@ Heroku Deployment link: COMING SOON
 
 
 ## Installation
-This project was created using JS,Express.js API,Handlebars, and MySQL
+This project was created using JS,Express.js API,Handlebars,Sequelize and MySQL
 
 ## Install instructions & Steps
 
