@@ -14,7 +14,8 @@ This Challenge is a CMS-style blog site similar to a Wordpress site, where devel
 
 GitHub Repo Link: https://github.com/brendaleea/MVC-Tech-Blog/tree/main
 
-Heroku Deployment link: COMING SOON
+Heroku Deployment link: https://mvc-tech-blog-1-b107abfab2e4.herokuapp.com/
+
 
 
 
