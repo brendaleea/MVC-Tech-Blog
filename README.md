@@ -9,7 +9,7 @@ This Challenge is a CMS-style blog site similar to a Wordpress site, where devel
 
 ## Visuals
 
-![MVC-Tech-Blog](./)
+![MVC-Tech-Blog](./assets/Screen%20Shot%202024-03-01%20at%2012.21.50%20PM.png)
 
 
 GitHub Repo Link: https://github.com/brendaleea/MVC-Tech-Blog/tree/main
